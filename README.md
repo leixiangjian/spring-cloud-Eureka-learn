@@ -51,3 +51,6 @@ eureka.client.serviceUrl.defaultZone=http://127.0.0.1:8671/eureka/
 # 三、Eureka高可用集群  
 通过相互配置属性：eureka.client.serviceUrl.defaultZone，比如：http://127.0.0.1:1111/eureka/,http://127.0.0.1:1112/eureka/,http://127.0.0.1:1113/eureka/  
 服务器端通过这样的方式相互复制，达到集群效果。客户端使用此方式达到多节点的效果。
+
+# 四 Eureka的客户端与服务端通信    
+通信方式：Http；通信协议：使用Jersey和XStream配合JSON作为Server与Client之间的通信协议。  
