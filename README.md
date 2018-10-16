@@ -7,7 +7,7 @@ spring cloud Eureka提供了服务器端服务注册管理与客户端服务注�
  <code>
    &lt;dependency&gt;
      &lt;groupId&gt;org.springframework.cloud&lt;/groupId&gt;
-     &lt;artifactId&gt;spring-cloud-starter-eureka-server&lt;/artifactId&gt;
+     &lt;artifactId&gt;spring-cloud-starter-netflix-eureka-server&lt;/artifactId&gt;
    &lt;/dependency&gt;
  </code>
 </pre>  
